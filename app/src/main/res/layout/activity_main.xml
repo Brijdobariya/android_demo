@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Add Tv Channal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/tvname"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/black"
+                android:hint="Enter Tv Name" />
+
+            <EditText
+                android:id="@+id/tvimg"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/black"
+                android:hint="Tv Img Url" />
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/black"
+                android:hint="video Url" />
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:contextClickable="true"
+                android:hint="Up Load Data"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/tvchannal"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:contextClickable="true"
+                android:hint="Shows"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
